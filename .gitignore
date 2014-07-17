@@ -1,3 +1,7 @@
 doc/~$panda.Pawel.Praca.Magisterska.docx
 doc/*.tmp
 src/initDeleteTest/Library/*
+src/initDeleteTest/Temp/*
+*.apk
+*.apk
+src/initDeleteTest/initDelete.apk
