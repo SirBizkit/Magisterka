@@ -9,7 +9,7 @@ PlayerSettings:
   targetDevice: 0
   targetGlesGraphics: 1
   targetResolution: 0
-  accelerometerFrequency: 60
+  accelerometerFrequency: 0
   companyName: bizkit.org
   productName: 2DInitDeleteTest
   defaultCursor: {fileID: 0}
@@ -73,7 +73,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: org.bizkit.init_delete_test
+  iPhoneBundleIdentifier: org.bizkit.initdeletetest
   productGUID: 3a8984573b6d44decadf1ac29eacc6ec
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
@@ -89,7 +89,7 @@ PlayerSettings:
   APKExpansionFiles: 0
   StripUnusedMeshComponents: 0
   iPhoneSdkVersion: 988
-  iPhoneTargetOSVersion: 10
+  iPhoneTargetOSVersion: 14
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIStatusBarHidden: 1
