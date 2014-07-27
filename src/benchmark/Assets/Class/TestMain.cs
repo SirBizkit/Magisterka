@@ -24,6 +24,7 @@ public class TestMain : MonoBehaviour, IEventListener {
 	
 	
 	public virtual void Start () {
+		Screen.sleepTimeout = SleepTimeout.NeverSleep;
 		Application.targetFrameRate = 60;
 		this.guiText.text = "";
 		EventManager.instance.AddListener(this as IEventListener, "BenchmarkEvent");

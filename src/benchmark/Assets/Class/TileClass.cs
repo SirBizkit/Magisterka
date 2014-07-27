@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using System.Collections;
  
-class TileClass : MonoBehaviour
+public class TileClass : MonoBehaviour
 {
 	public static int count = 0;
     public int columns = 2;
@@ -43,6 +43,9 @@ class TileClass : MonoBehaviour
  
         renderer.material.SetTextureOffset("_MainTex", offset);
     }
+
+	public virtual void rotate(){
+	}
 	
 	void Update () {
 		updateTiling();
@@ -54,6 +57,7 @@ class TileClass : MonoBehaviour
 			}
 			i += Time.deltaTime * rate;
 			transform.position = Vector3.Lerp(startPos, endPos, i);
+			rotate();
 		}
 	}
 	
