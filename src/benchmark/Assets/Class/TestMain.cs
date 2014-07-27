@@ -15,7 +15,7 @@ public class TestMain : MonoBehaviour, IEventListener {
 	private ArrayList queuedTests = new ArrayList();
 	
 	private Dictionary<string, float> results = new Dictionary<string, float>();
-	
+
 	private int m_index = 0;
 	
 	private float accum   = 0; // FPS accumulated over the interval
@@ -23,7 +23,7 @@ public class TestMain : MonoBehaviour, IEventListener {
 	private float timeleft; // Left time for current interval
 	
 	
-	void Start () {
+	public virtual void Start () {
 		Application.targetFrameRate = 60;
 		this.guiText.text = "";
 		EventManager.instance.AddListener(this as IEventListener, "BenchmarkEvent");
@@ -49,7 +49,7 @@ public class TestMain : MonoBehaviour, IEventListener {
 		addTest ("Benchmark 15", 100, true, 50);
 	}
 	
-	void addTest(string name, int spriteCount, bool animate,  int workload){
+	protected void addTest(string name, int spriteCount, bool animate,  int workload){
 		TestConfig tst = new TestConfig();
 		tst.spriteCount = spriteCount;
 		tst.TestName = name;
