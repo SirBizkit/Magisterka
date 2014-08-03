@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A5392DD4-43EB-01E7-4314-13664B4FF450}") = "jumpingJack", "Assembly-CSharp.csproj", "{7B4868FF-BCB7-8103-CD66-751AD95895ED}"
+EndProject
+Project("{A5392DD4-43EB-01E7-4314-13664B4FF450}") = "jumpingJack", "Assembly-CSharp-Editor.csproj", "{86130860-10D8-07C2-3924-69D0FE5DC0B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B4868FF-BCB7-8103-CD66-751AD95895ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4868FF-BCB7-8103-CD66-751AD95895ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4868FF-BCB7-8103-CD66-751AD95895ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4868FF-BCB7-8103-CD66-751AD95895ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86130860-10D8-07C2-3924-69D0FE5DC0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86130860-10D8-07C2-3924-69D0FE5DC0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86130860-10D8-07C2-3924-69D0FE5DC0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86130860-10D8-07C2-3924-69D0FE5DC0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+EndGlobal
